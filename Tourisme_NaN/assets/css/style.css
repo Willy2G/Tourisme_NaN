@@ -1,0 +1,192 @@
+/*GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url('../images/bg.jpg') !important;
+	font-family: Roboto !important;
+}
+/*HEADER*/
+
+.navbar {
+	background-color: #ffba00 !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 80px;
+	padding: 5px 0;
+	margin-bottom: 0 !important
+}
+.logo{
+	margin-left: 10px;
+}
+.navbar #myNavbar {
+	float: right;
+	margin-top: 10px;
+}
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+.navbar-nav li a {
+	color: #fff !important;
+	font-size: 15px;
+}
+.navbar-nav li a:hover {
+	color: #fff !important;
+	font-size: 15px;
+	background-color: #42ef08 !important;
+	border-radius: 7px;
+	transition: all 0.7s ease-in 0.1s;
+}
+
+/*SECTION VISITE*/
+
+#actualite {
+	padding: 20px 0;
+	text-align: center;
+}
+
+#actualite h2 {
+	
+	text-transform: uppercase;
+	padding: 10px 0;
+	color: #fff;
+}
+.divider1 {
+
+	width: 40%;
+	height: 2px;
+	background-color: #fff;
+	margin: 10px auto;
+	margin-bottom: 30px;
+}
+.divider2 {
+	width: 30%;
+	height: 2px;
+	background-color:  orange;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+#actualite h2:hover {
+	box-shadow: 0.5px 0.5px 2px #ffba00;
+}
+.divider {
+	width: 10%;
+	height: 2px;
+	background-color: #fff;
+	margin: 10px auto;
+	margin-bottom: 30px;
+}
+.caption h4 {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.caption a {
+	background-color: green;
+	color: #fff;
+	font-weight: bold;
+	transition: all 0.5s ease-in 0s;
+}
+.caption a:hover {
+	background-color: #3dd909;
+	box-shadow: 0.5px 1px 1px orange;	
+	color: #fff;
+}
+/*CONTACT*/
+#contact {
+	padding-bottom: 50px;	
+}
+#contact h2	{
+	color: #fff;
+	font-weight: bold;	
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.info_contact {
+	margin: 10% auto;
+}
+#contact h3 {
+	margin-top: 0;
+	font-weight: bold;
+	color: #fff;
+}
+#contact .contact_info {
+	font-size: 15px;
+}
+#contact .glyphicon {
+	margin-right: 10px;	
+	font-size: 18px;
+	color: green;
+}
+#contact p {
+	color: #fff;
+	font-weight: bold;
+}
+/*FORMULAIRE*/
+.form label {
+	color: #fff;
+	font-size: 18px;
+}
+.form input[type="text"], textarea[id="message"] {
+	margin-bottom: 10px;
+}
+.form input[type="submit"]{
+	padding: 5px 20px;
+	font-size: 20px;
+	color: #fff;
+	background-color: green;;
+	border-style: none;
+	border-radius: 5px;
+	font-weight: bold;
+	margin: 10px auto !important;
+	display: block;
+	transition: all 0.5s ease-in 0s;
+}
+.form input[type="submit"]:hover {
+	background-color: #3dd909;
+	box-shadow: 0.5px 0.5px 1px #fff;
+}
+
+/*FOOTER*/
+
+#pied {
+	background-color: green;
+/*	height: 150px;*/
+	color: #fff;
+	font-size: 1.5em;
+	padding: 50px 0;
+}
+.glyphicon-chevron-up {
+	font-size: 30px !important;
+	height: 2px;
+	color: orange;
+}
+.glyphicon-chevron-up:hover {
+	font-weight: bold;
+}
+
+#pied .info_codeur {
+	color: orange;
+	margin-right: 10px;	
+}
+
+
+/*A PROPOS DE NOUS*/
+#about {
+	padding: 30px 0;	
+}
+#about h3 {
+	text-align: center;
+	color:  #fff;
+	text-transform: uppercase;
+}
+#about  p {
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+
+}
